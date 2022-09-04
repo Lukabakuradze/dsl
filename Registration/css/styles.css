@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/a4LVxK.webp)
+}
+
+ .vl {
+    border-left: 2px solid rgb(0, 0, 0);
+    height: 100vh;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    
+}  
+#eye-icon{
+    position: fixed;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 6px;
+}
+
+
+.main-wrapper {
+    border: 2px solid black;
+    width: 400px;
+    margin-top: 150px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.registration-form {
+    padding: 20px;
+}
+
+.Register-button {
+    color: rgb(255, 255, 255);
+    background-color: #70d670;
+    margin-top: 20px;
+    width: 320px;
+    cursor: pointer;
+    height: 64px;
+    border-radius: 40px;
+    opacity: 85%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.registration-lables {
+    text-align: center;
+    height: 35px;
+    background-color: #eefff8;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 100px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    margin-left: 18px;
+}
+#password3{
+    margin-right: 15px;
+}
+
+.fa-solid {
+    font-size: 30px;
+}
+
+#Gender-male {
+    color: rgb(79, 79, 238);
+    margin-right: 35px;
+}
+
+#Gender-female {
+    color: palevioletred;
+
+}
+
+.error-text {
+    color: red;
+    font-size: 12px;
+    font-family: fangsong;
+}
+
+.fa-eye {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#password1 {
+    margin-left: 17px;
+}
+
+#password2 {
+    margin-left: 17px;
+}
+
+.second {
+    border: 2px solid black;
+    width: 400px;
+    margin-top: 250px;
+    text-align: center;
+    padding: 30px;
+    height: 300px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.two-two {
+    display: flex;
+    justify-content: space-around;
+}
+.fa-square-check{
+    cursor: pointer;
+}
+#saveemail{
+    margin-left: 20px;
+}
+
+@media all and (max-width: 768px) {
+    .two-two {
+        flex-direction: column;
+    }
+
+    .main-wrapper {
+        margin-left: 200px;
+        margin-top: 30px;
+    }
+
+    .second {
+        margin-top: 90px;
+        margin-left: 200px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .two-two {
+        flex-direction: column;
+    }
+
+    .main-wrapper {
+        margin-left: 35px;
+        margin-top: 30px;
+    }
+
+    .second {
+        margin-top: 90px;
+        margin-left: 35px;
+    }
+}
+@media all and (max-width:950px){
+    .vl{
+        display: none;
+    }
+}
